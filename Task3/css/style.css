@@ -1,0 +1,78 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /*
+    background-image: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+*/
+  background: url(../img/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    
+}
+
+.form{
+    margin: auto;
+    margin-top: 100px;
+    background-color: black;
+    width: 500px;
+    height: 600px;
+    border: 2px solid black;
+}
+
+.circular_image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+   
+  }
+  .circular_image img{
+    width:100%;
+  }
+
+  fieldset{
+    margin: 30px;
+    height: 500px;
+  }
+
+  legend{
+    margin: auto;
+  }
+
+  h1{
+    text-align: center;
+    color: aliceblue;
+
+  }
+
+  .reg{
+    color: aliceblue;
+    margin: 10px 20px;
+  }
+
+  input[type=text], input[type=password]  {
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
+    margin: 30px 0 20px 50px;
+    width: 80%;
+    background-color: red;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    
+  }
