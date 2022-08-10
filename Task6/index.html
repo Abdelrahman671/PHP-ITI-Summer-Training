@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        th,tr,td{
+            border: 2px solid green;
+        }
+
+        input[type=text], input[type=password], input[type=button]{
+            width:98%;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <table style="border: 5px solid green;">
+        <form method="post">
+            <tr>
+                <th colspan="2">Registration Form</th>
+            </tr>
+
+            <tr>
+                
+                <td><label for="fname">first name</label></td>
+                <td><input type="text" name="fname" id="fn"></td>
+                
+            </tr>
+
+            <tr>
+                <td><label for="lname">last name</label></td>
+                <td><input type="text" name="lname" id="ln"></td>
+                
+            </tr>
+
+            <tr>
+                <td><label for="username">user name</label></td>
+                <td><input type="text" name="username" id="un"></td>
+            </tr>
+
+            <tr>
+                <td><label for="email">user email</label></td>
+                <td><input type="text" name="email" id="em"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><input type="button" value="Add New User" onclick="addUser()"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><input id="view" type="button" value="View"></td>
+            </tr>
+        </form>
+    </table>
+
+    <br><br>
+
+    <table style="border: 5px solid green;" id="showData">
+        <form method="post">
+            <tr>
+                <th colspan="3">Display Data</th>
+            </tr>
+
+            <tr>
+                <th>Name</th>
+                <th>Username</th>
+                <th>Email</th>
+            </tr>
+            
+        </form>
+    </table>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
